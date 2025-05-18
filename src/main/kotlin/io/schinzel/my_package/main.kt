@@ -11,7 +11,7 @@ import io.schinzel.my_package.web_server.WebServer
  * http://127.0.0.1:5555/api/second?name=Henrik&age=52
  */
 fun main() {
-    WebServer()
+    WebServer(5555)
     "*".repeat(30).println()
     "Web server started.".println()
     "*".repeat(30).println()
